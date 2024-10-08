@@ -1,0 +1,86 @@
+<app-particles></app-particles>
+<header class="relative h-screen text-white">
+  <!-- Navigation Bar -->
+  <nav class="absolute top-0 left-0 w-full p-6 bg-gray-900/5 bg-opacity-0 backdrop-blur-lg transition-opacity duration-300 hover:bg-opacity-70 shadow-lg">
+    <ul class="flex justify-center space-x-6 text-lg md:space-x-8">
+      <li><a href="#" class="hover:text-blue-400 transition-colors duration-200">About me</a></li>
+      <li><a (click)="scrollTo('seccion1')" href="#" class="hover:text-blue-400 transition-colors duration-200">Projects</a></li>
+      <li><a href="#" class="hover:text-blue-400 transition-colors duration-200">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container mx-auto h-full flex flex-col md:flex-row items-center justify-between px-6 p-20"> <!-- Agregado pt-20 -->
+    <!-- Left Section: Name, Description, and Buttons -->
+    <div class="max-w-lg mb-12 md:mb-0 text-center md:text-left">
+      <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight sm:leading-none bg-clip-text text-transparent bg-gradient-to-r from-indigo-700 to-blue-500 animate-gradient-flash shadow-lg">
+        ALEJANDRO MARULANDA
+      </h1>
+      <p class="text-base sm:text-lg mt-6 leading-relaxed text-gray-300">
+        Full Stack Developer | 2 Years Experience | Spring Boot & UI/UX Expert
+      </p>
+      <p class="mt-6 text-xl sm:text-2xl font-semibold text-blue-200">2+ years experience</p>
+
+      <div class="mt-10 space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row">
+        <button class="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:bg-gradient-to-l hover:from-blue-900 hover:to-blue-500 transition duration-300 ease-in-out transform hover:scale-105 mb-4 sm:mb-0">
+          <a href="https://drive.google.com/uc?export=download&id=1EQU5Gv-KmCS5atMD0ZCLBfQQpHScpzR5">DESCARGAR CV</a>
+        </button>
+        <div class="inline-flex flex-col sm:flex-row sm:space-x-4 items-center">
+          <span class="bg-black bg-opacity-40 px-4 py-2 rounded-lg text-center shadow-lg mb-4 sm:mb-0">Full Stack Developer</span>
+          <span class="bg-black bg-opacity-40 px-4 py-2 rounded-lg text-center shadow-lg">Spring Boot Developer</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Section: Profile Image -->
+    <div class="relative group mb-10 md:mb-0">
+      <img src="../assets/ImagenFoto.jfif" alt="Profile Picture" class="rounded-full w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover shadow-xl transition-transform duration-500 group-hover:scale-110 hidden md:block"> <!-- Ocultar en pantallas pequeñas -->
+      <!-- Background Effect -->
+      <div class="absolute inset-0 w-full h-full rounded-full bg-gradient-to-r from-purple-600 to-blue-500 opacity-15 group-hover:opacity-60 animate-pulse"></div>
+    </div>
+    
+  </div>
+</header>
+
+<div class="h-screen w-full bg-gray-950">
+  <app-proyects></app-proyects>
+</div>
+
+
+
+
+
+<style>
+  body {
+    background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364); /* Fondo con gradiente */
+    color: white;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/cubes.png'); /* Patrón de fondo para más textura */
+    opacity: 0.1;
+  }
+
+  /* Animación del gradiente parpadeante */
+  @keyframes gradient-flash {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .animate-gradient-flash {
+    background-size: 200% 200%;
+    animation: gradient-flash 3s infinite;
+  }
+</style>
+
+
+<router-outlet></router-outlet>

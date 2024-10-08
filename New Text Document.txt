@@ -1,0 +1,275 @@
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <!-- Project Card 1 -->
+  <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:rotate-1 animate-fade-in-up" style="animation-delay: 200ms;">
+    <img src="../../../assets/FrontLogin.png" alt="Project 1" class="w-full h-48 object-cover transform transition duration-500 hover:scale-110">
+    <div class="p-6">
+      <h3 class="text-xl font-semibold text-white mb-2">Login Full Stack</h3>
+      <p class="text-gray-400 mb-4">Desarrollé un login Full Stack con Angular, Spring Boot, JWT para seguridad, TailwindCSS para el diseño, con el backend desplegado en Render y la base de datos en Google Cloud.</p>
+      <div class="flex flex-wrap gap-4 mb-4">
+        <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-110 animate-pulse">
+          <img src="/path/to/angular-logo.png" alt="Angular" class="w-full h-full object-contain p-1">
+        </div>
+        <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-110 animate-pulse" style="animation-delay: 100ms;">
+          <img src="/path/to/spring-boot-logo.png" alt="Spring Boot" class="w-full h-full object-contain p-1">
+        </div>
+        <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-110 animate-pulse" style="animation-delay: 200ms;">
+          <img src="/path/to/jwt-logo.png" alt="JWT" class="w-full h-full object-contain p-1">
+        </div>
+        <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-110 animate-pulse" style="animation-delay: 300ms;">
+          <img src="/path/to/tailwindcss-logo.png" alt="TailwindCSS" class="w-full h-full object-contain p-1">
+        </div>
+        <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-110 animate-pulse" style="animation-delay: 400ms;">
+          <img src="/path/to/render-logo.png" alt="Render" class="w-full h-full object-contain p-1">
+        </div>
+        <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-110 animate-pulse" style="animation-delay: 500ms;">
+          <img src="/path/to/google-cloud-logo.png" alt="Google Cloud" class="w-full h-full object-contain p-1">
+        </div>
+      </div>
+      <div class="flex justify-between items-center">
+        <a href="https://login-back-r5ag.vercel.app/register" class="text-teal-400 hover:text-teal-300 transition duration-300 transform hover:translate-x-1">Ver Proyecto</a>
+        <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:rotate-12">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+bg-gradient-to-br from-slate-950 via-gray-950 to-indigo-950
+
+
+
+
+
+
+
+
+
+
+     <div class="group bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-2xl overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:-rotate-1 hover:shadow-neon">
+          <div class="relative h-64 overflow-hidden">
+            <img src="../../../assets/Galeria.png" alt="Project 2" class="w-full h-full object-cover transform transition duration-700 group-hover:scale-110">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+          </div>
+          <div class="p-6 relative z-10">
+            <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors duration-300">Galería de imágenes</h3>
+            <p class="text-gray-300 mb-4 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">Desarrollé una galería de imágenes utilizando Angular y TypeScript, con manejo de datos reactivos mediante RxJS. El proyecto está contenedorizado con Docker para facilitar su despliegue y portabilidad.</p>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.1s;">
+                <img src="https://cdn-icons-png.flaticon.com/256/919/919832.png" alt="TypeScript" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.2s;">
+                <img src="https://iconape.com/wp-content/files/fm/91325/png/rxjs-1.png" alt="RxJS" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.3s;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" class="w-full h-full object-contain p-1">
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <a href="https://galeria-angular-lime.vercel.app/gallery" class="text-purple-400 hover:text-purple-300 transition duration-300 transform hover:translate-x-2 flex items-center group">
+                <span class="group-hover:mr-2 transition-all duration-300">Ver Proyecto</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-0 w-0 group-hover:h-5 group-hover:w-5 transition-all duration-300" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:rotate-12 animate-pulse">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="group bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-2xl overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:-rotate-1 hover:shadow-neon">
+          <div class="relative h-64 overflow-hidden">
+            <img src="../../../assets/Corrales.png" alt="Project 3" class="w-full h-full object-cover transform transition duration-700 group-hover:scale-110">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+          </div>
+          <div class="p-6 relative z-10">
+            <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors duration-300">Corrales Crud</h3>
+            <p class="text-gray-300 mb-4 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">Desarrollé un CRUD de animales y corrales con Angular, TypeScript, RxJS, Spring Boot y MySQL. Utilicé Swagger para la API, Docker para contenedorización y desplegué la base de datos en Google Cloud.</p>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.1s;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg" alt="Spring Boot" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.2s;">
+                <img src="https://iconape.com/wp-content/files/fm/91325/png/rxjs-1.png" alt="RxJS" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.3s;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.4s;">
+                <img src="https://www.devprojournal.com/wp-content/uploads/2022/05/docker-logo.webp" alt="Docker" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.5s;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcl6bNz164hBmV0cRsPsc1EOAyZQPiefrRHQ&s" alt="Google Cloud" class="w-full h-full object-contain p-1">
+              </div>
+              <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.6s;">
+                <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/swagger_icon_131958.png" alt="Swagger" class="w-full h-full object-contain p-1">
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <a href="https://frontcorral.vercel.app/" class="text-green-400 hover:text-green-300 transition duration-300 transform hover:translate-x-2 flex items-center group">
+                <span class="group-hover:mr-2 transition-all duration-300">Ver Proyecto</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-0 w-0 group-hover:h-5 group-hover:w-5 transition-all duration-300" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:rotate-12 animate-pulse">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="group bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-2xl overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:-rotate-1 hover:shadow-neon">
+            <div class="relative h-64 overflow-hidden">
+              <img src="../../../assets/Task.png" alt="Project 3" class="w-full h-full object-cover transform transition duration-700 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+            </div>
+            <div class="p-6 relative z-10">
+              <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors duration-300">Manejo De Tareas</h3>
+              <p class="text-gray-300 mb-4 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">Desarrollé una aplicación de manejo de tareas con Angular, TypeScript, RxJS, Spring Boot, Swagger, Docker, TailwindCSS, y desplegué en Vercel y Render.</p>
+              <div class="flex flex-wrap gap-3 mb-4">
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.1s;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg" alt="Spring Boot" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.2s;">
+                  <img src="https://iconape.com/wp-content/files/fm/91325/png/rxjs-1.png" alt="RxJS" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.3s;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.4s;">
+                  <img src="https://www.devprojournal.com/wp-content/uploads/2022/05/docker-logo.webp" alt="Docker" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.5s;">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcl6bNz164hBmV0cRsPsc1EOAyZQPiefrRHQ&s" alt="Google Cloud" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.6s;">
+                  <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/swagger_icon_131958.png" alt="Swagger" class="w-full h-full object-contain p-1">
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <a href="#" class="text-green-400 hover:text-green-300 transition duration-300 transform hover:translate-x-2 flex items-center group">
+                  <span class="group-hover:mr-2 transition-all duration-300">Ver Proyecto</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-0 w-0 group-hover:h-5 group-hover:w-5 transition-all duration-300" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:rotate-12 animate-pulse">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="group bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-2xl overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:-rotate-1 hover:shadow-neon">
+            <div class="relative h-64 overflow-hidden">
+              <img src="../../../assets/Corrales.png" alt="Project 3" class="w-full h-full object-cover transform transition duration-700 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+            </div>
+            <div class="p-6 relative z-10">
+              <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors duration-300">Corrales Crud</h3>
+              <p class="text-gray-300 mb-4 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">Desarrollé un CRUD de animales y corrales con Angular, TypeScript, RxJS, Spring Boot y MySQL. Utilicé Swagger para la API, Docker para contenedorización y desplegué la base de datos en Google Cloud.</p>
+              <div class="flex flex-wrap gap-3 mb-4">
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.1s;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg" alt="Spring Boot" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.2s;">
+                  <img src="https://iconape.com/wp-content/files/fm/91325/png/rxjs-1.png" alt="RxJS" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.3s;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.4s;">
+                  <img src="https://www.devprojournal.com/wp-content/uploads/2022/05/docker-logo.webp" alt="Docker" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.5s;">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcl6bNz164hBmV0cRsPsc1EOAyZQPiefrRHQ&s" alt="Google Cloud" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.6s;">
+                  <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/swagger_icon_131958.png" alt="Swagger" class="w-full h-full object-contain p-1">
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <a href="#" class="text-green-400 hover:text-green-300 transition duration-300 transform hover:translate-x-2 flex items-center group">
+                  <span class="group-hover:mr-2 transition-all duration-300">Ver Proyecto</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-0 w-0 group-hover:h-5 group-hover:w-5 transition-all duration-300" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:rotate-12 animate-pulse">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="group bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-2xl overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:-rotate-1 hover:shadow-neon">
+            <div class="relative h-64 overflow-hidden">
+              <img src="../../../assets/Corrales.png" alt="Project 3" class="w-full h-full object-cover transform transition duration-700 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+            </div>
+            <div class="p-6 relative z-10">
+              <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors duration-300">Corrales Crud</h3>
+              <p class="text-gray-300 mb-4 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">Desarrollé un CRUD de animales y corrales con Angular, TypeScript, RxJS, Spring Boot y MySQL. Utilicé Swagger para la API, Docker para contenedorización y desplegué la base de datos en Google Cloud.</p>
+              <div class="flex flex-wrap gap-3 mb-4">
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.1s;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg" alt="Spring Boot" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.2s;">
+                  <img src="https://iconape.com/wp-content/files/fm/91325/png/rxjs-1.png" alt="RxJS" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.3s;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.4s;">
+                  <img src="https://www.devprojournal.com/wp-content/uploads/2022/05/docker-logo.webp" alt="Docker" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.5s;">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcl6bNz164hBmV0cRsPsc1EOAyZQPiefrRHQ&s" alt="Google Cloud" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="w-8 h-8 bg-white rounded-full overflow-hidden shadow-md transform transition duration-300 hover:scale-125 hover:rotate-12 animate-float" style="animation-delay: 0.6s;">
+                  <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/swagger_icon_131958.png" alt="Swagger" class="w-full h-full object-contain p-1">
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <a href="#" class="text-green-400 hover:text-green-300 transition duration-300 transform hover:translate-x-2 flex items-center group">
+                  <span class="group-hover:mr-2 transition-all duration-300">Ver Proyecto</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-0 w-0 group-hover:h-5 group-hover:w-5 transition-all duration-300" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:rotate-12 animate-pulse">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
