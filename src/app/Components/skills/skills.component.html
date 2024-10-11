@@ -1,75 +1,62 @@
-<section class="bg-gradient-to-r from-black to-indigo-950 h-screen py-20 sm:px-6 lg:px-8 overflow-hidden">
+<section class="bg-gradient-to-r from-black to-indigo-950 min-h-screen py-10 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 overflow-hidden relative">
   <div class="max-w-7xl mx-auto">
-    
-
-    <div class="flex flex-wrap justify-between mb-16">
-      <!-- Columna Izquierda -->
-      <div class="flex-1 ml-4">
-        <app-spline-viewer class="w-full max-w-3xl h-96"></app-spline-viewer>
+    <div class="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-12 mb-8 lg:mb-16">
+      <div class="w-full lg:w-1/2 h-64 sm:h-80 md:h-96 lg:h-[600px] overflow-hidden rounded-3xl shadow-2xl relative">
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-110 transition-transform duration-1000 ease-in-out hover:scale-100">
+          <app-spline-viewer></app-spline-viewer>
+        </div>
       </div>
-    
-      <!-- Columna Derecha -->
-      <div class="flex-1 mr-4">
-        <div class="flex flex-col space-y-8">
-          <!-- Skill Card 1 -->
-          <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-6 transform transition duration-500 hover:scale-105 hover:rotate-2 animate-fade-in-up" style="animation-delay: 200ms;">
-            <div class="flex items-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-pink-400 mr-3 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-              </svg>
-              <h3 class="text-2xl font-bold text-white">Desarrollo Frontend</h3>
-            </div>
-            <p class="text-gray-300 mb-4">Creación de interfaces de usuario atractivas y responsivas utilizando las últimas tecnologías web.</p>
-            <div class="flex flex-wrap gap-2">
-              <span class="px-3 py-1 bg-pink-500 text-white text-xs font-semibold rounded-full animate-pulse">HTML5</span>
-              <span class="px-3 py-1 bg-blue-500 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 100ms;">TailwindCSS</span>
-              <span class="px-3 py-1 bg-yellow-500 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 200ms;">JavaScript</span>
-              <span class="px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 100ms;">TailwindCSS</span>
-              <span class="px-3 py-1 bg-yellow-500 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 200ms;">Typescript</span>
-              <span class="px-3 py-1 bg-indigo-600 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 300ms;">React</span>
-              <span class="px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 300ms;">Angular</span>
-            </div>
+      <div class="w-full lg:w-1/2 space-y-6 sm:space-y-8">
+        <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-4 sm:p-6 transform transition duration-500 hover:scale-105 hover:rotate-1 hover:bg-opacity-20 group">
+          <div class="flex items-center mb-3 sm:mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8 text-pink-400 mr-2 sm:mr-3 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+            <h3 class="text-xl sm:text-2xl font-bold text-white group-hover:text-pink-400 transition-colors duration-300">Desarrollo Frontend</h3>
           </div>
-    
-          <!-- Skill Card 2 -->
-          <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-6 transform transition duration-500 hover:scale-105 hover:rotate-2 animate-fade-in-up" style="animation-delay: 400ms;">
-            <div class="flex items-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-400 mr-3 animate-spin-slow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
-              </svg>
-              <h3 class="text-2xl font-bold text-white">Desarrollo Backend</h3>
-            </div>
-            <p class="text-gray-300 mb-4">Construcción de APIs robustas y escalables para potenciar aplicaciones web modernas.</p>
-            <div class="flex flex-wrap gap-2">
-              <span class="px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full animate-pulse">Node.js</span>
-              <span class="px-3 py-1 bg-blue-600 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 100ms;">SpringBoot</span>
-              <span class="px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 200ms;">Mysql</span>
-              <span class="px-3 py-1 bg-indigo-500 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 300ms;">GraphQL</span>
-            </div>
+          <p class="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4 group-hover:text-white transition-colors duration-300">Creación de interfaces de usuario atractivas y responsivas utilizando las últimas tecnologías web.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 sm:px-3 py-1 bg-pink-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-pink-600 transition-colors duration-300">HTML5</span>
+            <span class="px-2 sm:px-3 py-1 bg-blue-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-blue-600 transition-colors duration-300">TailwindCSS</span>
+            <span class="px-2 sm:px-3 py-1 bg-yellow-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-yellow-600 transition-colors duration-300">JavaScript</span>
+            <span class="px-2 sm:px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-green-600 transition-colors duration-300">Vue.js</span>
+            <span class="px-2 sm:px-3 py-1 bg-yellow-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-yellow-600 transition-colors duration-300">TypeScript</span>
+            <span class="px-2 sm:px-3 py-1 bg-indigo-600 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-indigo-700 transition-colors duration-300">React</span>
+            <span class="px-2 sm:px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-red-600 transition-colors duration-300">Angular</span>
           </div>
-    
-          <!-- Skill Card 3 -->
-          <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-6 transform transition duration-500 hover:scale-105 hover:rotate-2 animate-fade-in-up" style="animation-delay: 600ms;">
-            <div class="flex items-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-400 mr-3 animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-              </svg>
-              <h3 class="text-2xl font-bold text-white">DevOps</h3>
-            </div>
-            <p class="text-gray-300 mb-4">Implementación de prácticas de CI/CD para mejorar la eficiencia y calidad del desarrollo de software.</p>
-            <div class="flex flex-wrap gap-2">
-              <span class="px-3 py-1 bg-blue-400 text-white text-xs font-semibold rounded-full animate-pulse">Docker</span>
-              <span class="px-3 py-1 bg-emerald-400 text-white text-xs font-semibold rounded-full animate-pulse" style="animation-delay: 300ms;">Git</span>
-            </div>
+        </div>
+        <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-4 sm:p-6 transform transition duration-500 hover:scale-105 hover:rotate-1 hover:bg-opacity-20 group">
+          <div class="flex items-center mb-3 sm:mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8 text-green-400 mr-2 sm:mr-3 animate-spin-slow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+            </svg>
+            <h3 class="text-xl sm:text-2xl font-bold text-white group-hover:text-green-400 transition-colors duration-300">Desarrollo Backend</h3>
+          </div>
+          <p class="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4 group-hover:text-white transition-colors duration-300">Construcción de APIs robustas y escalables para potenciar aplicaciones web modernas.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 sm:px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-green-600 transition-colors duration-300">Node.js</span>
+            <span class="px-2 sm:px-3 py-1 bg-blue-600 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-blue-700 transition-colors duration-300">Spring Boot</span>
+            <span class="px-2 sm:px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-red-600 transition-colors duration-300">MySQL</span>
+            <span class="px-2 sm:px-3 py-1 bg-indigo-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-indigo-600 transition-colors duration-300">GraphQL</span>
+          </div>
+        </div>
+        <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-4 sm:p-6 transform transition duration-500 hover:scale-105 hover:rotate-1 hover:bg-opacity-20 group">
+          <div class="flex items-center mb-3 sm:mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8 text-yellow-400 mr-2 sm:mr-3 animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+            </svg>
+            <h3 class="text-xl sm:text-2xl font-bold text-white group-hover:text-yellow-400 transition-colors duration-300">DevOps</h3>
+          </div>
+          <p class="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4 group-hover:text-white transition-colors duration-300">Implementación de prácticas de CI/CD para mejorar la eficiencia y calidad del desarrollo de software.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 sm:px-3 py-1 bg-blue-400 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-blue-500 transition-colors duration-300">Docker</span>
+            <span class="px-2 sm:px-3 py-1 bg-emerald-400 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-emerald-500 transition-colors duration-300">Git</span>
           </div>
         </div>
       </div>
     </div>
-    </div>
-    
-
+  </div>
 </section>
-
 
 
   

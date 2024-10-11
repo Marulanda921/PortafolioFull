@@ -12,4 +12,8 @@ export class ProyectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  abrirNuevaPestana(url : string) : void {
+    window.open(url, "_blank");
+  }
+
 }
