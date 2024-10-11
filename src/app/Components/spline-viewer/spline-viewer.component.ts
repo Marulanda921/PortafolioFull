@@ -1,4 +1,4 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-spline-viewer',
@@ -7,10 +7,20 @@ import { Component, AfterViewInit } from '@angular/core';
 })
 export class SplineViewerComponent implements AfterViewInit {
 
+  constructor(private el: ElementRef) {}
+
   ngAfterViewInit() {
-    const script = document.createElement('script');
-    script.type = 'module';
-    script.src = 'https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js';
-    document.body.appendChild(script);
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = 'https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js';
+        script.async = true;
+        document.body.appendChild(script);
+        observer.disconnect();
+      }
+    });
+
+    observer.observe(this.el.nativeElement);
   }
 }
