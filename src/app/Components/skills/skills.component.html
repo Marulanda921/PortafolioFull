@@ -1,12 +1,13 @@
 <section class="bg-gradient-to-r from-black to-indigo-950 min-h-screen py-10 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 overflow-hidden relative">
   <div class="max-w-7xl mx-auto">
-    <div class="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-12 mb-8 lg:mb-16">
+    <div class="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-12 mb-8 lg:mb-16">
       <div class="w-full lg:w-1/2 h-64 sm:h-80 md:h-96 lg:h-[600px] overflow-hidden rounded-3xl relative">
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-110 transition-transform duration-1000 ease-in-out hover:scale-100">
           <app-spline-viewer></app-spline-viewer>
         </div>
       </div>
-      <div class="w-full lg:w-1/2 space-y-6 sm:space-y-8">
+      <div class="w-full lg:w-1/2 space-y-6 sm:space-y-8 overflow-y-scroll max-h-80 md:max-h-60 lg:max-h-full lg:overflow-y-hidden lg:overflow-x-hidden"> <!-- Scroll en pantallas pequeñas y medianas -->
+
         <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-4 sm:p-6 transform transition duration-500 hover:scale-105 hover:rotate-1 hover:bg-opacity-20 group">
           <div class="flex items-center mb-3 sm:mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8 text-pink-400 mr-2 sm:mr-3 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -25,6 +26,8 @@
             <span class="px-2 sm:px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-red-600 transition-colors duration-300">Angular</span>
           </div>
         </div>
+      
+
         <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-4 sm:p-6 transform transition duration-500 hover:scale-105 hover:rotate-1 hover:bg-opacity-20 group">
           <div class="flex items-center mb-3 sm:mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8 text-green-400 mr-2 sm:mr-3 animate-spin-slow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -40,6 +43,8 @@
             <span class="px-2 sm:px-3 py-1 bg-indigo-500 text-white text-xs font-semibold rounded-full animate-pulse group-hover:bg-indigo-600 transition-colors duration-300">GraphQL</span>
           </div>
         </div>
+      
+
         <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-4 sm:p-6 transform transition duration-500 hover:scale-105 hover:rotate-1 hover:bg-opacity-20 group">
           <div class="flex items-center mb-3 sm:mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-8 sm:w-8 text-yellow-400 mr-2 sm:mr-3 animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -54,9 +59,14 @@
           </div>
         </div>
       </div>
+      
+      
+      
+      
     </div>
   </div>
 </section>
+
 
 
   
